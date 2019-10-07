@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+  }
+.flex-container
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+html
+{  
+    height: 100%;
+}
+#wrapper
+{
+    width: 100%;
+}
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+aside 
+{
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+  .img1 
+{
+    padding:2px;
+    width: 100%;
+}
+header
+{  
+    background-image: url("images/gw4.jpg");
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+     font-style:italic;
+     color:white;
+     text-shadow:  2px 2px 8px black;
+}
+h2
+{
+    color:rgb(0, 102, 255);
+}
+h4
+{
+    color:black;
+}
+nav
+{   
+    display: flex;
+    background-color:rgb(37, 177, 187);
+}
+p,li
+{
+text-align:justify;
+}
+nav  a
+{
+  color:black;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+nav a:hover
+{
+    background-color:white;
+    color:palevioletred;
+}
+main
+{
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+main img
+{
+    height:70%;
+    width: 100%;
+}
+@media screen and (max-width: 700px) 
+{   
+     header
+    {
+    height:80px;
+    padding:5px;
+    }
+    h1
+    {
+        font-size: 40px;
+    }
+    .topnav a
+    {
+        padding: 5px 5px;
+        text-align: center;
+        height:30px;
+        font-size:15px;
+    }
+     nav 
+    {  
+     justify-content: space-evenly;
+     flex-direction:row;
+    }
+   body
+   {
+       font-size:10px;
+   }
+}  
+footer
+{   
+    font-style: italic;
+    padding: 10px;
+    text-align: center;
+    background:rgb(37, 177, 187);
+}
